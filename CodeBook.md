@@ -22,24 +22,26 @@ tBodyAccmeanX_groupmean - mean of the  tBodyAcc-mean()-X values for this subject
 
 tBodyAccmeanY_groupmean - see above 
 
-> tBodyAccmeanZ_groupmean
-> tBodyAccstdX_groupmean
-> tBodyAccstdY_groupmean
-> tBodyAccstdZ_groupmean
-tGravityAccmeanX_groupmean
-tGravityAccmeanY_groupmean
-tGravityAccmeanZ_groupmean
-tGravityAccstdX_groupmean
-tGravityAccstdY_groupmean
-tGravityAccstdZ_groupmean
-tBodyAccJerkmeanX_groupmean
-tBodyAccJerkmeanY_groupmean
-tBodyAccJerkmeanZ_groupmean
-tBodyAccJerkstdX_groupmean
-tBodyAccJerkstdY_groupmean
-tBodyAccJerkstdZ_groupmean
-tBodyGyromeanX_groupmean
+> tBodyAccmeanZ_groupmean  
+> tBodyAccstdX_groupmean  
+> tBodyAccstdY_groupmean  
+> tBodyAccstdZ_groupmean  
+tGravityAccmeanX_groupmean  
+tGravityAccmeanY_groupmean  
+tGravityAccmeanZ_groupmean  
+tGravityAccstdX_groupmean  
+tGravityAccstdY_groupmean  
+tGravityAccstdZ_groupmean  
+tBodyAccJerkmeanX_groupmean  
+tBodyAccJerkmeanY_groupmean  
+tBodyAccJerkmeanZ_groupmean  
+tBodyAccJerkstdX_groupmean  
+tBodyAccJerkstdY_groupmean  
+tBodyAccJerkstdZ_groupmean  
+tBodyGyromeanX_groupmean  
 tBodyGyromeanY_groupmean
+
+
 tBodyGyromeanZ_groupmean
 tBodyGyrostdX_groupmean
 tBodyGyrostdY_groupmean
