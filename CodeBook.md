@@ -18,9 +18,10 @@ Full list of variables:
 
 subject           - the subject number to which the measurement pertains 
 activitydesc      - description of activity 
+
 tBodyAccmeanX_groupmean - mean of the  tBodyAcc-mean()-X values for this subject and activty -  see Samsung codebook for meaning of tBodyAcc-mean()-X
 
-tBodyAccmeanY_groupmean - see above 
+tBodyAccmeanY_groupmean - see above - this applies to all the remaining variables 
 
 tBodyAccmeanZ_groupmean  
 tBodyAccstdX_groupmean  
