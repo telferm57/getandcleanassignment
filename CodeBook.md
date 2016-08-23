@@ -21,8 +21,8 @@ activitydesc      - description of activity
 tBodyAccmeanX_groupmean - mean of the  tBodyAcc-mean()-X values for this subject and activty -  see Samsung codebook for meaning of tBodyAcc-mean()-X
 
 tBodyAccmeanY_groupmean - see above 
-tBodyAccmeanZ_groupmean
-tBodyAccstdX_groupmean
+> tBodyAccmeanZ_groupmean
+> tBodyAccstdX_groupmean
 tBodyAccstdY_groupmean
 tBodyAccstdZ_groupmean
 tGravityAccmeanX_groupmean
