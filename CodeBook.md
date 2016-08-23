@@ -26,21 +26,13 @@ tBodyAccmeanY_groupmean - see above
 > tBodyAccstdX_groupmean
 > tBodyAccstdY_groupmean
 > tBodyAccstdZ_groupmean
-
 tGravityAccmeanX_groupmean
-
 tGravityAccmeanY_groupmean
-
 tGravityAccmeanZ_groupmean
-
 tGravityAccstdX_groupmean
-
 tGravityAccstdY_groupmean
-
 tGravityAccstdZ_groupmean
-
 tBodyAccJerkmeanX_groupmean
-
 tBodyAccJerkmeanY_groupmean
 tBodyAccJerkmeanZ_groupmean
 tBodyAccJerkstdX_groupmean
