@@ -23,8 +23,8 @@ tBodyAccmeanX_groupmean - mean of the  tBodyAcc-mean()-X values for this subject
 tBodyAccmeanY_groupmean - see above 
 > tBodyAccmeanZ_groupmean
 > tBodyAccstdX_groupmean
-tBodyAccstdY_groupmean
-tBodyAccstdZ_groupmean
+> tBodyAccstdY_groupmean
+> tBodyAccstdZ_groupmean
 tGravityAccmeanX_groupmean
 tGravityAccmeanY_groupmean
 tGravityAccmeanZ_groupmean
