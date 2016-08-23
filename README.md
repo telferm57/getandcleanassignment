@@ -7,9 +7,15 @@ There are 2 distinct data sets, test and train, indicated by suffixing the "x_",
 
 the script sets the working directory adn initialises some variables to hold the filenames  (you must edit this to match your environment) . a function is called for each data set  that:
 
-1. assigns the variable names in the features file tyo the columns in the x_ data
-2. strips out all variables that do not have "std" or "mean" in the name from the x_ data 
+1. assigns the variable names in the features file to the columns in the x_ data and removes any (,),- characters (note camel case retained for readability) 
+2. strips out all variables that do not have "std" or "mean" or "meanFreq" in the name from the x_ data 
 3. adds the subject and activity values to each record of the x_data.
-4. assigns the appropriate activty description to each record 
+4. assigns the appropriate activity description to each record 
 
-The function is called for the test dataset and the train dataset. These are then amalgamated 
+The function is called for the test dataset and the train dataset. These are then amalgamated using bind_rows, and summarised into 3 tables: 
+
+summarisedbysubjectandactivity - data grouped by subject and activity and the mean function applied - column names  have 'groupmean' appended to the name 
+summarisedbysubject - data grouped by subject and the mean function applied - column names  have 'bysubject' appended to the name
+summarisedbyactivity - data grouped by activity and the mean function applied - column names  have 'byactivity' appended to the name
+
+Finally, the summarisedbysubjectandactivity table is written out to outputfile "meanbysubjectactivity.txt"
